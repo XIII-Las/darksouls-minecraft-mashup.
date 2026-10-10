@@ -1,0 +1,19 @@
+{
+  "primary": "minecraft-java",
+  "companions": [
+    {
+      "role": "companion",
+      "slug": "dark-souls-remastered"
+    }
+  ],
+  "components": [
+    {
+      "fileName": "*.jar",
+      "destination": "{minecraft-instance}/mods/"
+    },
+    {
+      "fileName": "mmc-pack.json",
+      "destination": "{minecraft-instance}/"
+    }
+  ]
+}
